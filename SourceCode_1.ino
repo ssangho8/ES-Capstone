@@ -1,24 +1,24 @@
 /*#include <HX711.h>
-  #include "HX711.h" //HX711로드셀 라이브러리 불러오기
-  #define calibration_factor -7050.0 // 로드셀 초기값을 설정해줍니다. 이렇게 해주어야 처음에 작동시에 0점을 맞추는 것이라고 생각하시면 됩니다.
+  #include "HX711.h" //Call HX711 LoadCell Library
+  #define calibration_factor -7050.0 // Define Initial Value of Load Cell 
   #define DOUT  11 //엠프 데이터 아웃 핀
   #define CLK  10  //엠프 클락
   HX711 scale(DOUT, CLK); //엠프 핀 선언 */
-//////////////////////////////////////////무게센서
+//////////////////////////////////////////Load Cell
 
-#define trig1 2    // 트리거 핀 선언
-#define echo1 3    // 에코 핀 선언
-#define trig2 4    // 트리거 핀 선언
-#define echo2 5    // 에코 핀 선언
-#define trig3 6     // 트리거 핀 선언
-#define echo3 7    // 에코 핀 선언
-#define trig4 16     // 트리거 핀 선언
-#define echo4 17    // 에코 핀 선언
-#define trig_top 8     // 트리거 핀 선언
-#define echo_top 9    // 에코 핀 선언
-#define trig_mot 10    // 트리거 핀 선언
-#define echo_mot 11    // 에코 핀 선언
-/////////////////////////////////////////////초음파센서
+#define trig1 2    // Define Trigger Pin
+#define echo1 3    // Define Echo Pin
+#define trig2 4    
+#define echo2 5   
+#define trig3 6  
+#define echo3 7   
+#define trig4 16     
+#define echo4 17    
+#define trig_top 8     
+#define echo_top 9   
+#define trig_mot 10    
+#define echo_mot 11    
+/////////////////////////////////////////////Ultrasonic Sensor
 
 #include "SparkFun_WT2003S_MP3_Decoder.h" // Click here to get the library: http://librarymanager/All#SparkFun_WT2003S
 
